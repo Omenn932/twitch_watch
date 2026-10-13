@@ -1,0 +1,10 @@
+services:
+  twitch_watch:
+    build: .
+    container_name: Twitch_watch
+    env_file:
+      - ./twitch/.env
+    volumes:
+      # Refreshed tokens are saved here so they survive restarts and rebuilds.
+      - ./twitch/data:/app/data
+    restart: unless-stopped

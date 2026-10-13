@@ -1,0 +1,4 @@
+twitch/.env
+twitch/data/
+__pycache__/
+*.py[cod]

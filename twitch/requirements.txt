@@ -1,0 +1,5 @@
+# twitchio 3.x is a full rewrite (EventSub, needs client secret + bot id) and
+# breaks this bot, so stay on the last 2.x release.
+twitchio==2.10.0
+aiohttp>=3.9,<4
+python-dotenv>=1.0,<2
